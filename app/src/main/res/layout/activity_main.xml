@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.myeffects.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="@android:integer/config_shortAnimTime"
+        android:text="This is fadien animation"
+        android:background="@color/Indigo"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:gravity="center"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Start Effect"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
